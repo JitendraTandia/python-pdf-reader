@@ -6,7 +6,7 @@ from typing import List
 app = FastAPI()
 
 # Configure Google Gemini API
-API_KEY = "AIzaSyCgiobpaQEnRO3zVdu2CyHmQxxp89v49Qc"  # Replace with your actual API key
+API_KEY = ""  # Replace with your actual API key
 genai.configure(api_key=API_KEY)
 
 # Initialize the model
